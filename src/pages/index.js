@@ -12,21 +12,16 @@ export default class IndexPage extends React.Component {
       <Layout>
         <section className="section">
           <div className="container">
-            <div className="content">
-              <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
-            </div>
             {posts
               .map(({ node: post }) => (
                 <div
                   className="content"
-                  style={{ border: '1px solid #333', padding: '2em 4em' }}
                   key={post.id}
                 >
+                  <Link to={post.fields.slug}>
+                    <h1 className="has-text-primary">{post.frontmatter.title}</h1>
+                  </Link>
                   <p>
-                    <Link className="has-text-primary" to={post.fields.slug}>
-                      {post.frontmatter.title}
-                    </Link>
-                    <span> &bull; </span>
                     <small>{post.frontmatter.date}</small>
                   </p>
                   <p>

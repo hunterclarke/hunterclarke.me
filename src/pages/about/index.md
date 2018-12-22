@@ -1,5 +1,5 @@
 ---
 templateKey: about-page
-title: About our values
+title: About Me
 ---
 ### Welcome to my site

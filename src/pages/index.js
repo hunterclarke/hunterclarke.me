@@ -14,36 +14,44 @@ export default class IndexPage extends React.Component {
           <div className="container">
             <div className="columns">
               <div className="column is-8 is-offset-2">
-                {posts
-                  .map(({ node: post }) => (
-                    <div
-                      className="content"
-                      key={post.id}
-                    >
-                      <Link to={post.fields.slug}>
-                        <h1 className="has-text-primary">{post.frontmatter.title}</h1>
-                      </Link>
-                      <p>
-                        <small>{post.frontmatter.date}</small>
-                      </p>
-                      <p>
-                        {post.excerpt}
-                        <br />
-                        <br />
-                        <Link className="button is-small" to={post.fields.slug}>
-                          Keep Reading →
-                        </Link>
-                      </p>
-                    </div>
-                  ))}
-                </div>
+                <p
+                  style={{
+                    textAlign: "center"
+                  }}
+                >
+                  Until I get around to writing something check me out on <a href="https://twitter.com/hunterclarke">Twitter</a>
+                </p>
               </div>
+            </div>
           </div>
         </section>
       </Layout>
     )
   }
 }
+
+// Put back into markup when ready
+// {posts.map(({ node: post }) => (
+//   <div
+//     className="content"
+//     key={post.id}
+//   >
+//     <Link to={post.fields.slug}>
+//       <h1 className="has-text-primary">{post.frontmatter.title}</h1>
+//     </Link>
+//     <p>
+//       <small>{post.frontmatter.date}</small>
+//     </p>
+//     <p>
+//       {post.excerpt}
+//       <br />
+//       <br />
+//       <Link className="button is-small" to={post.fields.slug}>
+//         Keep Reading →
+//       </Link>
+//     </p>
+//   </div>
+// ))}
 
 IndexPage.propTypes = {
   data: PropTypes.shape({

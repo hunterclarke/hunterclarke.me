@@ -12,28 +12,32 @@ export default class IndexPage extends React.Component {
       <Layout>
         <section className="section">
           <div className="container">
-            {posts
-              .map(({ node: post }) => (
-                <div
-                  className="content"
-                  key={post.id}
-                >
-                  <Link to={post.fields.slug}>
-                    <h1 className="has-text-primary">{post.frontmatter.title}</h1>
-                  </Link>
-                  <p>
-                    <small>{post.frontmatter.date}</small>
-                  </p>
-                  <p>
-                    {post.excerpt}
-                    <br />
-                    <br />
-                    <Link className="button is-small" to={post.fields.slug}>
-                      Keep Reading →
-                    </Link>
-                  </p>
+            <div className="columns">
+              <div className="column is-8 is-offset-2">
+                {posts
+                  .map(({ node: post }) => (
+                    <div
+                      className="content"
+                      key={post.id}
+                    >
+                      <Link to={post.fields.slug}>
+                        <h1 className="has-text-primary">{post.frontmatter.title}</h1>
+                      </Link>
+                      <p>
+                        <small>{post.frontmatter.date}</small>
+                      </p>
+                      <p>
+                        {post.excerpt}
+                        <br />
+                        <br />
+                        <Link className="button is-small" to={post.fields.slug}>
+                          Keep Reading →
+                        </Link>
+                      </p>
+                    </div>
+                  ))}
                 </div>
-              ))}
+              </div>
           </div>
         </section>
       </Layout>
@@ -57,7 +61,7 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
-          excerpt(pruneLength: 400)
+          excerpt(pruneLength: 800)
           id
           fields {
             slug

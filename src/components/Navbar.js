@@ -1,7 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
 
 const Navbar = class extends React.Component {
 
@@ -22,7 +20,6 @@ const Navbar = class extends React.Component {
          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
          el.classList.toggle('is-active');
          $target.classList.toggle('is-active');
-
        });
      });
    }
@@ -30,29 +27,35 @@ const Navbar = class extends React.Component {
 
  render() {
    return (
+    <nav className="navbar is-transparent" role="navigation" aria-label="main-navigation">
+      <div className="container">
+        <div className="navbar-brand">
+          <a className="navbar-item" href="/">
+            <h1>Hunter Clarke</h1>
+          </a>
 
-  <nav className="navbar is-transparent" role="navigation" aria-label="main-navigation">
-    <div className="container">
-      <div className="navbar-brand">
-        {/* Hamburger menu */}
-        <div className="navbar-burger burger" data-target="navMenu">
-          <span></span>
-          <span></span>
-          <span></span>
+          {/* Hamburger menu */}
+          <div className="navbar-burger burger" data-target="navMenu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </div>
+        </div>
+        <div id="navMenu" className="navbar-menu">
+          <div className="navbar-start has-text-centered">
+            <Link className="navbar-item" to="/">
+              Home
+            </Link>
+            <Link className="navbar-item" to="/about">
+              About
+            </Link>
+            <Link className="navbar-item" to="/projects">
+              Projects
+            </Link>
+          </div>
         </div>
       </div>
-      <div id="navMenu" className="navbar-menu">
-        <div className="navbar-start has-text-centered">
-          <Link className="navbar-item" to="/">
-            Home
-          </Link>
-          <Link className="navbar-item" to="/about">
-            About
-          </Link>
-        </div>
-      </div>
-    </div>
-  </nav>
+    </nav>
   )}
 }
 

@@ -9,8 +9,22 @@ $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 
+.navbar
+  padding-top: .75rem
+  padding-bottom: 1rem
+  border-bottom: 1px solid #ccc;
+
+.navbar .navbar-brand h1
+  font-weight: 600
+  font-size: 1.4em
+
 .navbar .navbar-menu
+  max-width: 800px
+  margin: auto
   box-shadow:none !important
+
+.content
+  max-width: 800px
 
 .content .taglist
   list-style: none
@@ -45,3 +59,6 @@ $body-color: #333
   margin-top: 0 !important
 
 @import "~bulma"
+
+body
+  font-size: 1.1em

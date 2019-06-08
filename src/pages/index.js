@@ -13,13 +13,14 @@ export default class IndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <div className="columns">
-              <div className="column is-8 is-offset-2">
+              <div className="column is-8 is-offset-2 content">
                 <p
                   style={{
-                    textAlign: "center"
+                  textAlign: "center"
                   }}
                 >
-                  Until I get around to writing something check me out on <a href="https://twitter.com/hunterclarke">Twitter</a>
+                  Until I get around to writing something check me out on <a
+                  href="https://twitter.com/hunterclarke">Twitter</a>
                 </p>
               </div>
             </div>
@@ -33,7 +34,6 @@ export default class IndexPage extends React.Component {
 // Put back into markup when ready
 // {posts.map(({ node: post }) => (
 //   <div
-//     className="content"
 //     key={post.id}
 //   >
 //     <Link to={post.fields.slug}>
@@ -69,7 +69,7 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
-          excerpt(pruneLength: 800)
+          excerpt(pruneLength: 400)
           id
           fields {
             slug

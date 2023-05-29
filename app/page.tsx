@@ -45,7 +45,7 @@ export default async function Home() {
               <Link href="https://www.casefleet.com" className="text-blue-600">
                 CaseFleet
               </Link>{' '}
-              - CTO
+              - Co-Founder &amp; CTO
             </li>
           </ul>
         </div>

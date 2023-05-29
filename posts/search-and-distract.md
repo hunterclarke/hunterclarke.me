@@ -1,6 +1,6 @@
 ---
 title: "Search and Distract"
-excerpt: "There's a process that is always running in the back of my brain. It's probably an artifact of the internet. But I'm not ruling out the possibility that it's a part of the human experience.Whenever there is a hint of boredom, my brain makes it the primary process. It's pretty simple. I call it Search and Distract"
+excerpt: "There's a process that is always running in the back of my brain. It's probably an artifact of the internet. But I'm not ruling out the possibility that it's a part of the human experience. Whenever there is a hint of boredom, my brain makes it the primary process. It's pretty simple. I call it Search and Distract"
 publishedDate: "2021-02-07"
 ---
 

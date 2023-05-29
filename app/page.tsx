@@ -36,13 +36,13 @@ export default async function Home() {
           <h2 className="text-lg font-medium">My Career</h2>
           <ul>
             <li>
-              <Link href="https://hq.getmatter.app" className="text-blue-500">
+              <Link href="https://hq.getmatter.app" className="text-blue-600">
                 Matter
               </Link>{' '}
               - Senior Backend Engineer (Current)
             </li>
             <li>
-              <Link href="https://www.casefleet.com" className="text-blue-500">
+              <Link href="https://www.casefleet.com" className="text-blue-600">
                 CaseFleet
               </Link>{' '}
               - CTO
@@ -54,17 +54,17 @@ export default async function Home() {
           <h2 className="text-lg font-medium">My Projects</h2>
           <ul>
             <li>
-              <Link href="https://www.metathon.com" className="text-blue-500">
+              <Link href="https://www.metathon.com" className="text-blue-600">
                 Metathon
               </Link>
             </li>
             <li>
-              <Link href="https://www.spackle.so" className="text-blue-500">
+              <Link href="https://www.spackle.so" className="text-blue-600">
                 Spackle
               </Link>
             </li>
             <li>
-              <Link href="https://www.archer.so" className="text-blue-500">
+              <Link href="https://www.archer.so" className="text-blue-600">
                 Archer
               </Link>
             </li>
@@ -76,7 +76,7 @@ export default async function Home() {
           <ul>
             {posts.map((post) => (
               <li key={post.slug}>
-                <Link href={`/posts/${post.slug}`} className="text-blue-500">
+                <Link href={`/posts/${post.slug}`} className="text-blue-600">
                   {post.title}
                 </Link>
               </li>

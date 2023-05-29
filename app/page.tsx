@@ -54,7 +54,7 @@ export default async function Home() {
           <h2 className="text-lg font-medium">My Projects</h2>
           <ul>
             <li>
-              <Link href="https://www.casefleet.com" className="text-blue-500">
+              <Link href="https://www.metathon.com" className="text-blue-500">
                 Metathon
               </Link>
             </li>

@@ -23,6 +23,10 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.9"
+    "@markdoc/markdoc": "^0.3.0",
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/js-yaml": "^4.0.5",
+    "clsx": "^1.2.1",
+    "js-yaml": "^4.1.0"
   }
 }

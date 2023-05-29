@@ -6,8 +6,7 @@ publishedDate: "2021-03-23"
 
 To avoid being stuck in games of semantics, I'll clarify that I think that they don't have **good** taste.
 
-Good Taste
-----------
+## Good Taste
 
 What is taste? Taste is a set of preferences. I prefer [running](https://www.metathon.com/) to rowing, for instance. Taste is, by definition, personal. I have my own tastes and you have yours.
 
@@ -15,8 +14,7 @@ What is good taste? This is where it gets tricky. My best definition is: prefere
 
 There is one trait of good taste that is important to note. Good taste is inherently social. Someone can only have good taste if others with good taste agree. By definition, if you have different preferences from someone with good taste, you probably have bad taste.
 
-Search Engines Have Bad Taste
------------------------------
+## Search Engines Have Bad Taste
 
 Before I attack search engines I do want to clarify the scorecard I'm using to make this claim. Search engines are a miracle. When it comes to matters of trivia they are phenomenally good. If you know what information you are searching for, and can form the proper terms into a question, your question will most likely be answered. If you want to know how to change a car tire, the date World War 2 ended, or a recipe for pasta sauce you will get a link to the best answer.
 
@@ -44,8 +42,7 @@ We all know these pages. We experience them every day. You can identify them by 
 
 This last bit is the most important here. As I claimed above, having good taste is social. So why does the first page of search results contain links that I don't like visiting?
 
-Why Good Taste Is Important For Search Results
-----------------------------------------------
+## Why Good Taste Is Important For Search Results
 
 Quality links exhibit the opposite of the traits listed above. They are timeless. They are well written. They are shared between people with good taste. But most importantly, they don't contain the veneer of SEO optimizations that make pages so disappointing.
 
@@ -55,8 +52,7 @@ Smart people often read and write widely. When you find a website that isn't afr
 
 Surfacing high quality, good taste links is the open door to discovery.
 
-Adding Good Taste To Search Engines
------------------------------------
+## Adding Good Taste To Search Engines
 
 Here I need to leave the rant behind and try to explore some ideas around how search engines could resolve their taste problem.
 

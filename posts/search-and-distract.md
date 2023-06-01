@@ -12,9 +12,10 @@ There's a process that is always running in the back of my brain. It's probably 
 Whenever there is a hint of boredom, my brain makes it the primary process. It's pretty simple. I call it Search and Distract:
 
 1.  Search for a distraction
-2.  Give a reward for the distraction
-3.  Become bored of the distraction
-4.  Goto 1
+2.  Find a distraction
+3.  Get a reward for the distraction
+4.  Become bored of the distraction
+5.  Goto 1
 
 The problem isn't the desire to be entertained. Engaging entertainment can be incredibly rewarding and inspiring.
 
@@ -29,6 +30,7 @@ Exercise is great for a lot of things (including staying alive). But it also doe
 
 Doing nothing is the more interesting concept. You could call it meditation, but I call it taking a shower. By doing nothing, you can take advantage of your brain's inability to be bored. Just sit and wait for the loop to churn up something that might actually be productive.
 ‍
+
 ~~Anything new on Instagram?~~
 
 ~~Anything new on Hacker News?~~

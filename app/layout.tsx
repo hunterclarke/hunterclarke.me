@@ -31,7 +31,13 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body className={inter.className + 'text-sm'}>{children}</body>
+      <body
+        className={
+          inter.className + 'text-sm dark:bg-slate-900 dark:text-white'
+        }
+      >
+        {children}
+      </body>
     </html>
   )
 }

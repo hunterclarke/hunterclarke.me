@@ -1,29 +1,10 @@
-import fs from 'fs'
 import Link from 'next/link'
-import { FrontMatter, postsDirectory } from './posts/constants'
-import Markdoc from '@markdoc/markdoc'
-import yaml from 'js-yaml'
-import { join } from 'path'
+import { getPosts } from './posts/posts'
+import { generateRssFeed } from './scripts/gen-rss'
 
-async function getPosts() {
-  const files = fs.readdirSync(postsDirectory)
-  return files
-    .map((file) => {
-      const slug = file.replace(/\.md$/, '')
-      const source = fs.readFileSync(join(postsDirectory, `${slug}.md`), 'utf8')
-      const ast = Markdoc.parse(source)
-      const { title, excerpt, publishedDate } = (
-        ast.attributes.frontmatter ? yaml.load(ast.attributes.frontmatter) : {}
-      ) as FrontMatter
-
-      return {
-        slug,
-        title,
-        excerpt,
-        publishedDate: new Date(publishedDate),
-      }
-    })
-    .sort((a, b) => b.publishedDate.getTime() - a.publishedDate.getTime())
+export async function generateStaticParams() {
+  await generateRssFeed()
+  return []
 }
 
 export default async function Home() {

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Hunter Clarke's Posts | RSS Feed]]></title>
+        <description><![CDATA[Hunter's home on the internet]]></description>
+        <link>hunterclarke.me</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Wed, 27 Sep 2023 14:40:53 GMT</lastBuildDate>
+        <atom:link href="hunterclarke.me/posts/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Wed, 27 Sep 2023 14:40:53 GMT</pubDate>
+        <copyright><![CDATA[All rights reserved 2023, Hunter Clarke]]></copyright>
+        <item>
+            <title><![CDATA[Search Engines Don't Have Taste]]></title>
+            <description><![CDATA[To avoid being stuck in games of semantics, I'll clarify that I think that they don't have good taste. What is taste? Taste is a set of preferences. I prefer running to rowing, for instance. Taste is, by definition, personal. I have my own tastes and you have yours. What is good taste? This is where it gets tricky. My best definition is: preferences that identify and maximize inherent quality. Here we get into murky waters in an attempt to define Quality or "good design." I'll leave that up to the reader. For now, we'll use the description: "you know it when you see it."]]></description>
+            <link>hunterclarke.me/posts/search-engines-dont-have-taste</link>
+            <guid isPermaLink="false">hunterclarke.me/posts/search-engines-dont-have-taste</guid>
+            <pubDate>Tue, 23 Mar 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Search and Distract]]></title>
+            <description><![CDATA[There's a process that is always running in the back of my brain. It's probably an artifact of the internet. But I'm not ruling out the possibility that it's a part of the human experience. Whenever there is a hint of boredom, my brain makes it the primary process. It's pretty simple. I call it Search and Distract]]></description>
+            <link>hunterclarke.me/posts/search-and-distract</link>
+            <guid isPermaLink="false">hunterclarke.me/posts/search-and-distract</guid>
+            <pubDate>Sun, 07 Feb 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[On Choosing Your Stack]]></title>
+            <description><![CDATA[Filmmakers and photographers often ask “What was that shot on?” Writers ask what software or note taking system is best. Musicians can spend days researching the best plugins for their production software. These are all very productive forms of not creating anything.We web developers have an equivalent: What’s the best tech stack?]]></description>
+            <link>hunterclarke.me/posts/on-choosing-your-stack</link>
+            <guid isPermaLink="false">hunterclarke.me/posts/on-choosing-your-stack</guid>
+            <pubDate>Fri, 05 Feb 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ship]]></title>
+            <description><![CDATA[The internet has made us all venture capitalists whether we like it or not. Venture capitalists play a game of asymmetric returns. The vast majority of investments fail. But a few winners more than make up the difference (and add a healthy profit margin).In the same way venture capitalists place bets knowing most will fail, internet creators play the same game. Most content created on the internet will never be seen. It will never be shared. It will never be noticed.]]></description>
+            <link>hunterclarke.me/posts/ship</link>
+            <guid isPermaLink="false">hunterclarke.me/posts/ship</guid>
+            <pubDate>Fri, 05 Feb 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Stress Driven Development]]></title>
+            <description><![CDATA[Small teams that are creating something new have no shortage of problems. Among those is the question: What should be worked on right now? I ask myself this question a lot while working at CaseFleet. One of the benefits of being on a (very) small team is autonomy. Autonomy, unfortunately, comes with the stress of responsibility. I get to choose what I work on because I'm also the person who is responsible for a large part of the company. That means support requests, maintenance, bug fixes, and many other tasks are also my responsibility.]]></description>
+            <link>hunterclarke.me/posts/stress-driven-development</link>
+            <guid isPermaLink="false">hunterclarke.me/posts/stress-driven-development</guid>
+            <pubDate>Fri, 05 Feb 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Edit Is What Matters]]></title>
+            <description><![CDATA[Everyone participates in the creative process. If you're a writer, filmmaker, graphic designer, or one of the other traditional creative types, this is a given. For the rest of us, it's not so obvious. But if you squint hard enough, every email and power point presentation follows the same creative steps.]]></description>
+            <link>hunterclarke.me/posts/the-edit-is-what-matters</link>
+            <guid isPermaLink="false">hunterclarke.me/posts/the-edit-is-what-matters</guid>
+            <pubDate>Fri, 05 Feb 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why You're In An Echo Chamber]]></title>
+            <description><![CDATA[I’ve recently noticed that despite my best efforts, I’m fed the same content from the same people at the same cadence. It’s an echo chamber that is hard to escape. I thought about how to break out of this loop and came up with the following mental model and solution.]]></description>
+            <link>hunterclarke.me/posts/why-youre-in-an-echo-chamber</link>
+            <guid isPermaLink="false">hunterclarke.me/posts/why-youre-in-an-echo-chamber</guid>
+            <pubDate>Fri, 05 Feb 2021 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
